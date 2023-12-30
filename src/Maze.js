@@ -700,7 +700,7 @@ const Maze = ({ toggleMusic, musicPlaying, exitGame }) => {
               className="mobile-button"
               onClick={() => handleButtonPress("right")}
             >
-              Right
+              Rightt
             </button>
           </div>
         )}
