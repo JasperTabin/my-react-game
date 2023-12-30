@@ -358,6 +358,7 @@ const Maze = ({ toggleMusic, musicPlaying, exitGame }) => {
     new Audio(collectibleSound)
   );
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const [zoomLevel, setZoomLevel] = useState(1);
 
   const handleResize = () => {
     const mobileThreshold = 768; // Adjust this threshold as needed
@@ -365,10 +366,10 @@ const Maze = ({ toggleMusic, musicPlaying, exitGame }) => {
 
     if (currentWidth <= mobileThreshold && !isMobile) {
       setIsMobile(true);
-      // Add any logic or state updates for mobile view
+      setZoomLevel(0.5); // Adjust the zoom level as needed
     } else if (currentWidth > mobileThreshold && isMobile) {
       setIsMobile(false);
-      // Add any logic or state updates for non-mobile view
+      setZoomLevel(1);
     }
   };
 
@@ -727,6 +728,8 @@ const Maze = ({ toggleMusic, musicPlaying, exitGame }) => {
   return (
     <div className="maze">
       <div className="game-board">{createMaze()}</div>
+      {/* Use isMobile to conditionally render mobile-specific content */}
+      {isMobile ? createMaze() : null}
     </div>
   );
 };

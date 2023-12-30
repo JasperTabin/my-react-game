@@ -40,9 +40,9 @@ body {
   font-family: "Pixelify Sans", sans-serif;
 }
 
-.game-board {
+/* .game-board {
   background-color: #333;
-}
+} */
 
 .maze-row {
   display: flex;
