@@ -103,7 +103,7 @@ const levels = [
       { row: 13, col: 12 },
       { row: 14, col: 3 },
     ],
-    collectibleQuantity: 1,
+    collectibleQuantity: 6,
   },
   // Level 3
   {
@@ -183,7 +183,6 @@ const levels = [
       { row: 6, col: 27 },
       { row: 6, col: 28 },
       { row: 6, col: 29 },
-
       { row: 6, col: 4 },
       { row: 6, col: 10 },
       { row: 7, col: 1 },
@@ -512,15 +511,415 @@ const levels = [
       { row: 30, col: 23 },
       { row: 30, col: 27 },
     ],
-    collectibleQuantity: 1,
+    collectibleQuantity: 32,
   },
   // Level 4
   {
     mazeSize: 32,
     wallPositions: [
-      // ... wall positions for Level 4
+      { row: 1, col: 4 },
+      { row: 1, col: 7 },
+      { row: 1, col: 12 },
+      { row: 1, col: 18 },
+      { row: 1, col: 22 },
+      { row: 1, col: 26 },
+      { row: 2, col: 7 },
+      { row: 2, col: 8 },
+      { row: 2, col: 9 },
+      { row: 2, col: 14 },
+      { row: 2, col: 15 },
+      { row: 2, col: 16 },
+      { row: 2, col: 20 },
+      { row: 2, col: 24 },
+      { row: 2, col: 28 },
+      { row: 2, col: 11 },
+      { row: 2, col: 12 },
+      { row: 2, col: 1 },
+      { row: 2, col: 2 },
+      { row: 2, col: 4 },
+      { row: 2, col: 5 },
+      { row: 3, col: 4 },
+      { row: 3, col: 16 },
+      { row: 3, col: 17 },
+      { row: 3, col: 18 },
+      { row: 3, col: 19 },
+      { row: 3, col: 20 },
+      { row: 3, col: 21 },
+      { row: 3, col: 22 },
+      { row: 3, col: 23 },
+      { row: 3, col: 24 },
+      { row: 3, col: 25 },
+      { row: 3, col: 26 },
+      { row: 3, col: 27 },
+      { row: 3, col: 28 },
+      { row: 3, col: 29 },
+      { row: 4, col: 4 },
+      { row: 4, col: 8 },
+      { row: 4, col: 10 },
+      { row: 4, col: 12 },
+      { row: 4, col: 13 },
+      { row: 4, col: 14 },
+      { row: 4, col: 14 },
+      { row: 4, col: 16 },
+      { row: 4, col: 6 },
+      { row: 4, col: 3 },
+      { row: 4, col: 2 },
+      { row: 4, col: 7 },
+      { row: 4, col: 24 },
+      { row: 4, col: 26 },
+      { row: 4, col: 28 },
+      { row: 5, col: 2 },
+      { row: 5, col: 7 },
+      { row: 5, col: 10 },
+      { row: 5, col: 12 },
+      { row: 5, col: 18 },
+      { row: 5, col: 20 },
+      { row: 5, col: 22 },
+      { row: 6, col: 14 },
+      { row: 6, col: 15 },
+      { row: 6, col: 16 },
+      { row: 6, col: 17 },
+      { row: 6, col: 18 },
+      { row: 6, col: 19 },
+      { row: 6, col: 20 },
+      { row: 6, col: 21 },
+      { row: 6, col: 22 },
+      { row: 6, col: 23 },
+      { row: 6, col: 24 },
+      { row: 6, col: 25 },
+      { row: 6, col: 26 },
+      { row: 6, col: 27 },
+      { row: 6, col: 28 },
+      { row: 6, col: 29 },
+      { row: 6, col: 4 },
+      { row: 6, col: 10 },
+      { row: 7, col: 1 },
+      { row: 7, col: 2 },
+      { row: 7, col: 4 },
+      { row: 7, col: 5 },
+      { row: 7, col: 6 },
+      { row: 7, col: 7 },
+      { row: 7, col: 9 },
+      { row: 7, col: 10 },
+      { row: 7, col: 12 },
+      { row: 8, col: 9 },
+      { row: 8, col: 12 },
+      { row: 8, col: 13 },
+      { row: 8, col: 15 },
+      { row: 8, col: 18 },
+      { row: 8, col: 19 },
+      { row: 8, col: 20 },
+      { row: 8, col: 21 },
+      { row: 8, col: 22 },
+      { row: 8, col: 23 },
+      { row: 8, col: 24 },
+      { row: 8, col: 25 },
+      { row: 8, col: 26 },
+      { row: 8, col: 27 },
+      { row: 8, col: 28 },
+      { row: 8, col: 29 },
+      { row: 8, col: 16 },
+      { row: 9, col: 12 },
+      { row: 9, col: 1 },
+      { row: 9, col: 3 },
+      { row: 9, col: 4 },
+      { row: 9, col: 6 },
+      { row: 9, col: 7 },
+      { row: 9, col: 9 },
+      { row: 9, col: 11 },
+      { row: 9, col: 16 },
+      { row: 10, col: 3 },
+      { row: 10, col: 6 },
+      { row: 10, col: 9 },
+      { row: 10, col: 14 },
+      { row: 10, col: 15 },
+      { row: 10, col: 16 },
+      { row: 10, col: 17 },
+      { row: 10, col: 19 },
+      { row: 10, col: 20 },
+      { row: 10, col: 21 },
+      { row: 10, col: 22 },
+      { row: 10, col: 23 },
+      { row: 10, col: 24 },
+      { row: 10, col: 25 },
+      { row: 10, col: 26 },
+      { row: 10, col: 27 },
+      { row: 10, col: 28 },
+      { row: 10, col: 29 },
+      { row: 11, col: 3 },
+      { row: 11, col: 2 },
+      { row: 11, col: 4 },
+      { row: 11, col: 5 },
+      { row: 11, col: 6 },
+      { row: 11, col: 9 },
+      { row: 11, col: 8 },
+      { row: 11, col: 10 },
+      { row: 11, col: 12 },
+      { row: 11, col: 17 },
+      { row: 11, col: 19 },
+      { row: 11, col: 23 },
+      { row: 11, col: 27 },
+      { row: 12, col: 5 },
+      { row: 12, col: 10 },
+      { row: 12, col: 14 },
+      { row: 12, col: 12 },
+      { row: 12, col: 15 },
+      { row: 12, col: 21 },
+      { row: 12, col: 25 },
+      { row: 12, col: 29 },
+      { row: 13, col: 1 },
+      { row: 13, col: 3 },
+      { row: 13, col: 5 },
+      { row: 13, col: 6 },
+      { row: 13, col: 8 },
+      { row: 13, col: 10 },
+      { row: 13, col: 12 },
+      { row: 13, col: 15 },
+      { row: 13, col: 17 },
+      { row: 13, col: 18 },
+      { row: 13, col: 19 },
+      { row: 13, col: 20 },
+      { row: 13, col: 21 },
+      { row: 13, col: 22 },
+      { row: 13, col: 23 },
+      { row: 13, col: 24 },
+      { row: 13, col: 25 },
+      { row: 13, col: 26 },
+      { row: 13, col: 27 },
+      { row: 13, col: 28 },
+      { row: 13, col: 29 },
+      { row: 14, col: 3 },
+      { row: 14, col: 15 },
+      { row: 14, col: 29 },
+      { row: 15, col: 6 },
+      { row: 15, col: 7 },
+      { row: 15, col: 9 },
+      { row: 15, col: 10 },
+      { row: 15, col: 11 },
+      { row: 15, col: 12 },
+      { row: 15, col: 13 },
+      { row: 15, col: 15 },
+      { row: 15, col: 16 },
+      { row: 15, col: 17 },
+      { row: 15, col: 18 },
+      { row: 15, col: 19 },
+      { row: 15, col: 20 },
+      { row: 15, col: 21 },
+      { row: 15, col: 22 },
+      { row: 15, col: 23 },
+      { row: 15, col: 24 },
+      { row: 15, col: 25 },
+      { row: 15, col: 26 },
+      { row: 15, col: 27 },
+      { row: 15, col: 29 },
+      { row: 16, col: 1 },
+      { row: 16, col: 2 },
+      { row: 16, col: 4 },
+      { row: 16, col: 6 },
+      { row: 16, col: 10 },
+      { row: 16, col: 12 },
+      { row: 16, col: 15 },
+      { row: 16, col: 29 },
+      { row: 17, col: 4 },
+      { row: 17, col: 5 },
+      { row: 17, col: 6 },
+      { row: 17, col: 7 },
+      { row: 17, col: 8 },
+      { row: 17, col: 10 },
+      { row: 17, col: 29 },
+      { row: 17, col: 15 },
+      { row: 17, col: 17 },
+      { row: 17, col: 18 },
+      { row: 17, col: 19 },
+      { row: 17, col: 20 },
+      { row: 17, col: 21 },
+      { row: 17, col: 22 },
+      { row: 17, col: 23 },
+      { row: 17, col: 24 },
+      { row: 17, col: 25 },
+      { row: 17, col: 26 },
+      { row: 17, col: 27 },
+      { row: 17, col: 28 },
+      { row: 18, col: 4 },
+      { row: 18, col: 3 },
+      { row: 18, col: 2 },
+      { row: 18, col: 6 },
+      { row: 18, col: 10 },
+      { row: 18, col: 15 },
+      { row: 18, col: 14 },
+      { row: 18, col: 13 },
+      { row: 18, col: 12 },
+      { row: 18, col: 29 },
+      { row: 19, col: 4 },
+      { row: 19, col: 6 },
+      { row: 19, col: 8 },
+      { row: 19, col: 10 },
+      { row: 19, col: 15 },
+      { row: 19, col: 16 },
+      { row: 19, col: 17 },
+      { row: 19, col: 18 },
+      { row: 19, col: 19 },
+      { row: 19, col: 20 },
+      { row: 19, col: 21 },
+      { row: 19, col: 22 },
+      { row: 19, col: 23 },
+      { row: 19, col: 24 },
+      { row: 19, col: 25 },
+      { row: 19, col: 26 },
+      { row: 19, col: 27 },
+      { row: 19, col: 29 },
+      { row: 20, col: 1 },
+      { row: 20, col: 2 },
+      { row: 20, col: 4 },
+      { row: 20, col: 6 },
+      { row: 20, col: 8 },
+      { row: 20, col: 9 },
+      { row: 20, col: 10 },
+      { row: 20, col: 11 },
+      { row: 20, col: 12 },
+      { row: 20, col: 13 },
+      { row: 20, col: 14 },
+      { row: 20, col: 15 },
+      { row: 20, col: 19 },
+      { row: 20, col: 23 },
+      { row: 20, col: 29 },
+      { row: 20, col: 27 },
+      { row: 21, col: 4 },
+      { row: 21, col: 6 },
+      { row: 21, col: 10 },
+      { row: 21, col: 17 },
+      { row: 21, col: 21 },
+      { row: 21, col: 25 },
+      { row: 21, col: 29 },
+      { row: 22, col: 4 },
+      { row: 22, col: 6 },
+      { row: 22, col: 3 },
+      { row: 22, col: 2 },
+      { row: 22, col: 8 },
+      { row: 22, col: 10 },
+      { row: 22, col: 11 },
+      { row: 22, col: 13 },
+      { row: 22, col: 14 },
+      { row: 22, col: 15 },
+      { row: 22, col: 17 },
+      { row: 22, col: 18 },
+      { row: 22, col: 20 },
+      { row: 22, col: 21 },
+      { row: 22, col: 16 },
+      { row: 22, col: 24 },
+      { row: 22, col: 22 },
+      { row: 22, col: 25 },
+      { row: 22, col: 26 },
+      { row: 22, col: 27 },
+      { row: 22, col: 28 },
+      { row: 22, col: 29 },
+      { row: 23, col: 4 },
+      { row: 23, col: 6 },
+      { row: 23, col: 16 },
+      { row: 23, col: 8 },
+      { row: 23, col: 7 },
+      { row: 23, col: 10 },
+      { row: 23, col: 13 },
+      { row: 23, col: 21 },
+      { row: 23, col: 29 },
+      { row: 24, col: 4 },
+      { row: 24, col: 6 },
+      { row: 24, col: 1 },
+      { row: 24, col: 2 },
+      { row: 24, col: 10 },
+      { row: 24, col: 13 },
+      { row: 24, col: 12 },
+      { row: 24, col: 14 },
+      { row: 24, col: 18 },
+      { row: 24, col: 21 },
+      { row: 24, col: 22 },
+      { row: 24, col: 23 },
+      { row: 24, col: 24 },
+      { row: 24, col: 25 },
+      { row: 24, col: 27 },
+      { row: 24, col: 28 },
+      { row: 24, col: 29 },
+      { row: 25, col: 4 },
+      { row: 25, col: 8 },
+      { row: 25, col: 10 },
+      { row: 25, col: 14 },
+      { row: 25, col: 16 },
+      { row: 25, col: 17 },
+      { row: 25, col: 18 },
+      { row: 25, col: 19 },
+      { row: 25, col: 21 },
+      { row: 25, col: 29 },
+      { row: 26, col: 3 },
+      { row: 26, col: 2 },
+      { row: 26, col: 4 },
+      { row: 26, col: 7 },
+      { row: 26, col: 8 },
+      { row: 26, col: 12 },
+      { row: 26, col: 13 },
+      { row: 26, col: 14 },
+      { row: 26, col: 10 },
+      { row: 26, col: 17 },
+      { row: 26, col: 19 },
+      { row: 26, col: 21 },
+      { row: 26, col: 22 },
+      { row: 26, col: 24 },
+      { row: 26, col: 25 },
+      { row: 26, col: 26 },
+      { row: 26, col: 27 },
+      { row: 26, col: 28 },
+      { row: 26, col: 29 },
+      { row: 26, col: 1 },
+      { row: 26, col: 19 },
+      { row: 27, col: 17 },
+      { row: 27, col: 16 },
+      { row: 27, col: 4 },
+      { row: 27, col: 7 },
+      { row: 27, col: 12 },
+      { row: 27, col: 29 },
+      { row: 28, col: 4 },
+      { row: 28, col: 1 },
+      { row: 28, col: 2 },
+      { row: 28, col: 7 },
+      { row: 28, col: 8 },
+      { row: 28, col: 9 },
+      { row: 28, col: 10 },
+      { row: 28, col: 11 },
+      { row: 28, col: 12 },
+      { row: 28, col: 13 },
+      { row: 28, col: 14 },
+      { row: 28, col: 16 },
+      { row: 28, col: 17 },
+      { row: 28, col: 18 },
+      { row: 28, col: 16 },
+      { row: 28, col: 19 },
+      { row: 28, col: 20 },
+      { row: 28, col: 21 },
+      { row: 28, col: 22 },
+      { row: 28, col: 24 },
+      { row: 28, col: 25 },
+      { row: 28, col: 26 },
+      { row: 28, col: 27 },
+      { row: 28, col: 28 },
+      { row: 28, col: 29 },
+      { row: 29, col: 17 },
+      { row: 29, col: 4 },
+      { row: 29, col: 5 },
+      { row: 29, col: 6 },
+      { row: 29, col: 7 },
+      { row: 29, col: 9 },
+      { row: 29, col: 21 },
+      { row: 29, col: 25 },
+      { row: 29, col: 29 },
+      { row: 29, col: 11 },
+      { row: 29, col: 13 },
+      { row: 29, col: 13 },
+      { row: 30, col: 2 },
+      { row: 30, col: 15 },
+      { row: 30, col: 19 },
+      { row: 30, col: 23 },
+      { row: 30, col: 27 },
     ],
-    collectibleQuantity: 1,
+    collectibleQuantity: 32,
   },
   // ... add more levels as needed
 ];
@@ -530,23 +929,20 @@ const generateMaze = (rows, columns, wallPositions, collectibleQuantity) => {
     Array.from({ length: columns }, () => 0)
   );
 
-  // Set the outer walls (top, bottom, left, right)
   for (let i = 0; i < rows; i++) {
-    maze[i][0] = 1; // Left wall
-    maze[i][columns - 1] = 1; // Right wall
+    maze[i][0] = 1;
+    maze[i][columns - 1] = 1;
   }
   for (let j = 0; j < columns; j++) {
-    maze[0][j] = 1; // Top wall
-    maze[rows - 1][j] = 1; // Bottom wall
+    maze[0][j] = 1;
+    maze[rows - 1][j] = 1;
   }
 
-  // Set the inner walls based on wallPositions
   wallPositions.forEach((position) => {
-    maze[position.row][position.col] = 1; // Wall
+    maze[position.row][position.col] = 1;
   });
 
-  // Set player position
-  maze[1][1] = 3; // Assuming the starting position is (1, 1)
+  maze[1][1] = 3;
 
   const collectiblePositions = [];
   for (let i = 0; i < Math.min(collectibleQuantity, rows * columns); i++) {
@@ -583,6 +979,8 @@ const Maze = ({ toggleMusic, musicPlaying, exitGame }) => {
     new Audio(collectibleSound)
   );
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const [instructionsVisible, setInstructionsVisible] = useState(false);
+  const [gameCompleted, setGameCompleted] = useState(false);
 
   const handlePauseResumeClick = () => {
     setPaused(!paused);
@@ -590,9 +988,11 @@ const Maze = ({ toggleMusic, musicPlaying, exitGame }) => {
   };
 
   const showInstructions = () => {
-    alert(
-      "Instructions:\nUse arrow keys or button to navigate through the maze."
-    );
+    setInstructionsVisible(true);
+  };
+
+  const closeInstructions = () => {
+    setInstructionsVisible(false);
   };
 
   useEffect(() => {
@@ -666,7 +1066,6 @@ const Maze = ({ toggleMusic, musicPlaying, exitGame }) => {
           );
           setCollectiblePositions(newCollectiblePositions);
 
-          // Play collectible sound
           collectibleSoundRef.currentTime = 0;
           collectibleSoundRef.play();
         }
@@ -731,7 +1130,6 @@ const Maze = ({ toggleMusic, musicPlaying, exitGame }) => {
             );
             setCollectiblePositions(newCollectiblePositions);
 
-            // Play collectible sound
             collectibleSoundRef.currentTime = 0;
             collectibleSoundRef.play();
           }
@@ -765,36 +1163,40 @@ const Maze = ({ toggleMusic, musicPlaying, exitGame }) => {
 
   const handleNextLevelClick = () => {
     const nextLevelIndex = (currentLevelIndex + 1) % levels.length;
-    setCurrentLevelIndex(nextLevelIndex);
-    setGameWon(false);
-    setCollectibles(0);
 
-    // Reset player position and other variables
-    setPlayerRow(1);
-    setPlayerCol(1);
+    // Check if this is the last level
+    if (nextLevelIndex === 0) {
+      // Congratulations! You completed the game
+      setGameCompleted(true);
+    } else {
+      setCurrentLevelIndex(nextLevelIndex);
+      setGameCompleted(false); // Reset the gameCompleted state
+      setGameWon(false);
+      setCollectibles(0);
 
-    // Update maze and collectibles
-    const currentLevel = levels[nextLevelIndex];
-    const { maze, collectiblePositions } = generateMaze(
-      currentLevel.mazeSize,
-      currentLevel.mazeSize,
-      currentLevel.wallPositions,
-      currentLevel.collectibleQuantity
-    );
+      setPlayerRow(1);
+      setPlayerCol(1);
 
-    setCollectiblePositions(collectiblePositions);
-    setMaze(maze);
+      const currentLevel = levels[nextLevelIndex];
+      const { maze, collectiblePositions } = generateMaze(
+        currentLevel.mazeSize,
+        currentLevel.mazeSize,
+        currentLevel.wallPositions,
+        currentLevel.collectibleQuantity
+      );
+
+      setCollectiblePositions(collectiblePositions);
+      setMaze(maze);
+    }
   };
 
   const handleTryAgainClick = () => {
     setGameWon(false);
     setCollectibles(0);
 
-    // Reset player position and other variables
     setPlayerRow(1);
     setPlayerCol(1);
 
-    // Update maze and collectibles
     const currentLevel = levels[currentLevelIndex];
     const { maze, collectiblePositions } = generateMaze(
       currentLevel.mazeSize,
@@ -923,7 +1325,7 @@ const Maze = ({ toggleMusic, musicPlaying, exitGame }) => {
               <button onClick={handleExitClick}>Exit Game</button>
             </div>
           )}
-          {gameWon && (
+          {!gameCompleted && gameWon && (
             <div className="popup">
               <div className="popup-content">
                 <p>Congratulations! You won!</p>
@@ -932,7 +1334,31 @@ const Maze = ({ toggleMusic, musicPlaying, exitGame }) => {
               </div>
             </div>
           )}
+          {instructionsVisible && (
+            <div className="instructions">
+              <div className="close-instructions" onClick={closeInstructions}>
+                <img
+                  src={process.env.PUBLIC_URL + "/images/Close.png"}
+                  alt="Close"
+                  className="close-icon"
+                />
+              </div>
+              <h2>Instructions</h2>
+              <p>
+                Use arrow keys or the provided buttons to navigate through the
+                maze.
+              </p>
+            </div>
+          )}
         </div>
+        {gameCompleted && (
+          <div className="popup">
+            <div className="popup-content">
+              <p>Congratulations! You completed the game!</p>
+              <button onClick={handleExitClick}>Go to Title Screen</button>
+            </div>
+          </div>
+        )}
       </div>
     );
   };
