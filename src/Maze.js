@@ -20,7 +20,7 @@ const levels = [
       { row: 5, col: 2 },
       { row: 6, col: 4 },
     ],
-    collectibleQuantity: 5,
+    collectibleQuantity: 8,
   },
   // Level 2
   {
