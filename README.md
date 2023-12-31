@@ -1,7 +1,7 @@
 # Cat Maze Game
 
 ## To Run the game
-http://localhost:3000
+http://localhost:3000/
 
 ## Goal
 
