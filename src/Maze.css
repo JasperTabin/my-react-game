@@ -113,9 +113,9 @@ body {
 }
 
 .icon-container {
-  position: absolute;
+  position: fixed;
   top: 20px;
-  right: 10px;
+  right: 20px;
   z-index: 1;
 }
 
@@ -149,8 +149,8 @@ body {
 
 .mobile-button {
   background-color: transparent; /* Override background color */
-  padding: 10px; /* Adjust padding as needed */
-  margin: 5px;
+  /*  padding: 10px; */
+  margin: 10px;
   border: 1px solid white; /* Add border for better visibility */
   cursor: pointer;
   border-radius: 5px;
@@ -162,4 +162,23 @@ body {
 
 .mobile-button:hover {
   background-color: #2f2f2f;
+}
+
+@media only screen and (max-width: 768px) {
+  .maze {
+    transform: scale(0.6) translate(-50%, -50%);
+    transform-origin: top left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .pause-icon {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+  }
 }
