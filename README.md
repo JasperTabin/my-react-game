@@ -1,7 +1,7 @@
 # Cat Maze Game
 
 ## To Run the game
-http://localhost:3000/
+https://JasperTabin.github.io/my-react-game
 
 ## Goal
 
