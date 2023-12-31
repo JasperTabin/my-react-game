@@ -10,6 +10,6 @@ Use the arrow keys & buttons to navigate to the game.
 
 ## Screenshots
 
-!.[TITLE SCREEN].(https://raw.githubusercontent.com/JasperTabin/my-react-game/main/Game%20Screenshot%201.png)
+![TITLE SCREEN](https://raw.githubusercontent.com/JasperTabin/my-react-game/main/Game%20Screenshot%201.png)
 
-!.[PLAY SCREEN]. (https://raw.githubusercontent.com/JasperTabin/my-react-game/main/Game%20Screenshot%202.png)
+![PLAY SCREEN](https://raw.githubusercontent.com/JasperTabin/my-react-game/main/Game%20Screenshot%202.png)
