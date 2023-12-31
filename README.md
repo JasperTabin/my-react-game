@@ -1,5 +1,8 @@
 # Cat Maze Game
 
+## To Run the game
+http://localhost:3000
+
 ## Goal
 
 Get the cat to collect all the finish to proceed to the next level of the game.
