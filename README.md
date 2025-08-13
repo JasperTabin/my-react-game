@@ -1,7 +1,7 @@
 # Cat Maze Game
 
 ## To Run the game
-https://tabinjasper-bsit32e1.github.io/my-react-game/
+https://tabinjasper.github.io/my-react-game/
 
 ## Goal
 
